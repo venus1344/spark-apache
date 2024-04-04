@@ -32,7 +32,7 @@ services:
   spark-worker-b:
     image: sparks
     ports:
-      - "9092:8080"
+      - "9093:8080"
       - "7001:7000"
     depends_on:
       - spark-master
